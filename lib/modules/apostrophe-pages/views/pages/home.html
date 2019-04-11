@@ -1,0 +1,16 @@
+{% extends "pages/default.html" %}
+
+{% block main %}
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container col-sm-10">
+        <div class="jumbotron-header text-nowrap">
+          {{ apos.singleton(data.page, 'heroHeaderBlockTop', 'apostrophe-rich-text')}}
+        </div>
+        <div class="jumbotron-header text-nowrap">
+          {{ apos.singleton(data.page, 'heroHeaderBlockBottom', 'apostrophe-rich-text')}}
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
